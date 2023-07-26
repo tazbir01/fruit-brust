@@ -15,9 +15,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
     <style>
-        .font-leto{
+        .font-leto {
             font-family: 'Lato', sans-serif;
         }
+
+        .bg-image-1 {
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(./images/banner1.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .bg-image-2 {
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(./images/banner2.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .bg-image-3 {
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(./images/banner3.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .bg-image-4 {
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(./images/banner4.png);
+            background-position: center;
+            background-size: cover;
+        }
+
     </style>
 </head>
 
@@ -26,7 +48,7 @@
 
         <!-- this is navbar -->
         <nav>
-            <div class="navbar md:bg-[#F85559] rounded-full md:text-white px-8 mt-10">
+            <div class="navbar md:bg-[#F85559] rounded-full md:text-white px-8 my-10">
                 <div class="navbar-start">
                     <div class="hidden lg:flex">
                         <ul class="flex gap-7">
@@ -64,8 +86,63 @@
                 </div>
             </div>
         </nav>
+        <div class="banner">
+            <div class="carousel w-full">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full bg-image-1 rounded-lg flex justify-center items-center text-center">
+                    <div class="text-white my-20">
+                        <h1 class="text-7xl font-semibold ">Exotic tastes at your <br>doorstep</h1>
+                        <p class="my-6">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none font-bold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full bg-image-2 rounded-lg flex justify-center items-center text-center">
+                    <div class="text-white">
+                        <h1 class="text-7xl font-semibold ">Exotic tastes at your <br>doorstep</h1>
+                        <p class="my-6">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none font-bold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full bg-image-3 rounded-lg flex justify-center items-center text-center">
+                    <div class="text-white">
+                        <h1 class="text-7xl font-semibold ">Exotic tastes at your <br>doorstep</h1>
+                        <p class="my-6">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none font-bold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 5 -->
+                <div id="slide4" class="carousel-item relative w-full bg-image-4 rounded-lg flex justify-center items-center text-center">
+                    <div class="text-white">
+                        <h1 class="text-7xl font-semibold ">Exotic tastes at your <br>doorstep</h1>
+                        <p class="my-6">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none font-bold">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <main></main>
+    <main>
+
+
+    </main>
     <footer></footer>
 </body>
 
