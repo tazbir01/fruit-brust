@@ -47,11 +47,11 @@
 </head>
 
 <body class="font-lato">
-    <header class="max-w-6xl mx-auto">
+    <header class="max-w-6xl mx-2 md:mx-auto ">
 
         <!-- this is navbar -->
         <nav>
-            <div class="navbar md:bg-[#F85559] rounded-full md:text-white px-8 my-10">
+            <div class="navbar md:bg-[#F85559] rounded-full md:text-white px-8 my-12">
                 <div class="navbar-start">
                     <div class="hidden lg:flex">
                         <ul class="flex gap-7">
@@ -97,7 +97,8 @@
                 <div id="slide1"
                     class="carousel-item relative w-full bg-image-1 rounded-lg flex justify-center items-center text-center">
                     <div class="text-white my-20">
-                        <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold ">Exotic tastes at your <br>doorstep</h1>
+                        <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold ">Exotic tastes at your <br>doorstep
+                        </h1>
                         <p class="my-6">We supply highly quality organic products</p>
                         <button class="btn bg-[#F85559] text-white border-none font-bold capitalize">Shop Now</button>
                     </div>
@@ -170,14 +171,15 @@
             </div>
         </div>
     </header>
-    <main class="max-w-6xl mx-auto mt-32">
+    <main class="max-w-6xl mx-2 md:mx-auto mt-32">
 
         <!-- deal of the day section -->
         <section>
             <div class="md:flex">
                 <div class="flex-1 justify-center">
                     <h2 class="text-3xl md:text-5xl font-bold text-center md:text-left">Deal of the day</h2>
-                    <p class="text-center md:text-left mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                    <p class="text-center md:text-left mt-6">Contrary to popular belief, is not simply random text. It
+                        has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div class="flex gap-3 flex-1 justify-center md:justify-end">
@@ -219,7 +221,29 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
                             </div>
                             <div class="card-actions">
-                                <a class="text-error text-lg font-bold" href="">Details</a>
+                                <!-- The button to open modal -->
+                                <a href="#my_modal_8" class="text-error text-lg font-bold">Details</a>
+                                <!-- this the modal part -->
+                                <div class="modal" id="my_modal_8">
+                                    <div class="modal-box">
+                                        <figure class="px-10 pt-10">
+                                            <img src="./images/fruit6.png" alt="Apples" class="rounded-xl " />
+                                        </figure>
+                                        <h3 class="font-bold text-lg">Apple</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating my-3">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" checked />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                        </div>
+                                        <div class="modal-action flex justify-center">
+                                            <a href="#close" id="close" class="btn border-[#F85559] text-[#F85559]">Close</a>
+                                            <button class="btn bg-[#F85559] text-white border-none font-bold">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -241,7 +265,29 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
                             </div>
                             <div class="card-actions">
-                                <a class="text-error text-lg font-bold" href="">Details</a>
+                                <!-- The button to open modal -->
+                                <a href="#my_modal_8" class="text-error text-lg font-bold">Details</a>
+                                <!-- this the modal part -->
+                                <div class="modal" id="my_modal_8">
+                                    <div class="modal-box">
+                                        <figure class="px-10 pt-10">
+                                            <img src="./images/fruit7.png" alt="Orange" class="rounded-xl " />
+                                        </figure>
+                                        <h3 class="font-bold text-lg">Orange</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating my-3">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" checked />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                        </div>
+                                        <div class="modal-action flex justify-center">
+                                            <a href="#close" id="close" class="btn border-[#F85559] text-[#F85559]">Close</a>
+                                            <button class="btn bg-[#F85559] text-white border-none font-bold">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -263,7 +309,29 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
                             </div>
                             <div class="card-actions">
-                                <a class="text-error text-lg font-bold" href="">Details</a>
+                                <!-- The button to open modal -->
+                                <a href="#my_modal_8" class="text-error text-lg font-bold">Details</a>
+                                <!-- this the modal part -->
+                                <div class="modal" id="my_modal_8">
+                                    <div class="modal-box">
+                                        <figure class="px-10 pt-10">
+                                            <img src="./images/fruit8.png" alt="Red Dragon" class="rounded-xl " />
+                                        </figure>
+                                        <h3 class="font-bold text-lg">Red Dragon</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating my-3">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" checked />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                        </div>
+                                        <div class="modal-action flex justify-center">
+                                            <a href="#close" id="close" class="btn border-[#F85559] text-[#F85559]">Close</a>
+                                            <button class="btn bg-[#F85559] text-white border-none font-bold">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -285,7 +353,29 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
                             </div>
                             <div class="card-actions">
-                                <a class="text-error text-lg font-bold" href="">Details</a>
+                                <!-- The button to open modal -->
+                                <a href="#my_modal_8" class="text-error text-lg font-bold">Details</a>
+                                <!-- this the modal part -->
+                                <div class="modal" id="my_modal_8">
+                                    <div class="modal-box">
+                                        <figure class="px-10 pt-10">
+                                            <img src="./images/fruit9.png" alt="Apples" class="rounded-xl " />
+                                        </figure>
+                                        <h3 class="font-bold text-lg">Banana</h3>
+                                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                        <div class="rating my-3">
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" checked />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-error" />
+                                        </div>
+                                        <div class="modal-action flex justify-center">
+                                            <a href="#close" id="close" class="btn border-[#F85559] text-[#F85559]">Close</a>
+                                            <button class="btn bg-[#F85559] text-white border-none font-bold">Buy Now</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
